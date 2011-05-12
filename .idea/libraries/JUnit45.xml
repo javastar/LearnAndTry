@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JUnit45">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/JUnit45Enhancements/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/JUnit45Enhancements/lib" recursive="false" />
+  </library>
+</component>
