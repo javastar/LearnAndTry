@@ -10,6 +10,17 @@ public class InvoiceBuilder {
     private List<InvoiceLine> invoiceLines = new ArrayList <InvoiceLine>();
 
 
+    public static InvoiceBuilder anInvoice() {
+        return new InvoiceBuilder();
+    }
+
+    public Invoice build() {
+        Invoice invoice = new Invoice();
+        invoice.setAddress(address);
+        invoice.setInvoiceLines(invoiceLines);
+        return invoice;
+    }
+
     public InvoiceBuilder with(AddressBuilder addressBuilder) {
         address = addressBuilder.build();
         return this;
@@ -20,15 +31,4 @@ public class InvoiceBuilder {
         return this;
     }
 
-
-    public Invoice build() {
-        Invoice invoice = new Invoice();
-        invoice.setAddress(address);
-        invoice.setInvoiceLines(invoiceLines);
-        return invoice;
-    }
-
-    public static InvoiceBuilder anInvoice() {
-        return new InvoiceBuilder();
-    }
 }
