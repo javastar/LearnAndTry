@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a75511-f14c-49ba-8ade-ea38f584843b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/lib/guava-r09.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/lib/junit-4.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GuavaPredicatesLibs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/GuavaPredicates.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/AppBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample3_CompositePredicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountPredicates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample1Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample2Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample3_CompositePredicateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/Document.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/ErrorContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRuleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnAndTry.iws" />
@@ -76,62 +67,7 @@
     <favorites_list name="LearnAndTry" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredicateExample3_CompositePredicateTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample3_CompositePredicateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredicateExample3_CompositePredicate.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample3_CompositePredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountPredicates.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountPredicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Region.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Region.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountStatus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -145,14 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestDataBuilders/test/learnandtry/builders/invoice/InvoiceTest.java" />
-        <option value="$PROJECT_DIR$/TestDataBuilders/test/learnandtry/builders/invoice/InvoiceWithBuildersTest.java" />
-        <option value="$PROJECT_DIR$/TestDataBuilders/test/learnandtry/builders/invoice/InvoiceTestWithSetMethods.java" />
-        <option value="$PROJECT_DIR$/TestDataBuilders/test/learnandtry/builders/invoice/InvoiceWithSetMethodsTest.java" />
-        <option value="$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_Theories3.java" />
-        <option value="$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_Theories4.java" />
-        <option value="$PROJECT_DIR$/JUnit45Enhancements/src/learnandtry/junit45/pvn/PVNCalculator.java" />
-        <option value="$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_TheoryAlternative.java" />
         <option value="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample1Test.java" />
         <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample1.java" />
         <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample3_CompositePredicate.java" />
@@ -161,6 +89,14 @@
         <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Region.java" />
         <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Account.java" />
         <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountPredicates.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentModel.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/BusinessRuleSession.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/Document.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersion.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/ErrorContainer.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRuleTest.java" />
+        <option value="$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersionTest.java" />
       </list>
     </option>
   </component>
@@ -194,40 +130,23 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnAndTry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LearnAndTry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnAndTry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JUnit45Enhancements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnAndTry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JUnit45Enhancements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit45" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -294,29 +213,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
+              <option name="myItemId" value="documents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearnAndTry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GuavaPredicates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnAndTry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -325,35 +248,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="learnandtry.guava.predicates.documents" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.All in GuavaPredicates">
-    <configuration default="false" name="PVNCalculatorTest_Theories3" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="JUnit45Enhancements" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="learnandtry.junit45.pvn" />
-      <option name="MAIN_CLASS_NAME" value="learnandtry.junit45.pvn.PVNCalculatorTest_Theories3" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="PVNCalculatorTest_Theories4" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="JUnit45Enhancements" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -428,6 +335,28 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DocumentNameMaxLengthRuleTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="GuavaPredicates" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="learnandtry.guava.predicates.documents" />
+      <option name="MAIN_CLASS_NAME" value="learnandtry.guava.predicates.documents.DocumentNameMaxLengthRuleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -517,11 +446,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PVNCalculatorTest_Theories3" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PVNCalculatorTest_Theories4" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PVNCalculatorTest_TheoryAlternative" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in JUnit45Enhancements" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in GuavaPredicates" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PVNCalculatorTest_Theories4" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PVNCalculatorTest_TheoryAlternative" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in JUnit45Enhancements" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in GuavaPredicates" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DocumentNameMaxLengthRuleTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -619,106 +548,110 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_Theories4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3607595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_Theories2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="82" selection-start="658" selection-end="658" vertical-scroll-proportion="0.72911394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_Theories1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.5924051" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_ParameterizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="641" selection-end="816" vertical-scroll-proportion="0.90886074" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/test/learnandtry/junit45/pvn/PVNCalculatorTest_TheoryAlternative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.19437939">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JUnit45Enhancements/src/learnandtry/junit45/pvn/PVNCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.65456676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.34466588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.6471278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45369285">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.45369285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/AppBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountPredicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample3_CompositePredicateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.05035129">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample3_CompositePredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.8981265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/PredicateExample3_CompositePredicateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.69322234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.05035129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.15105386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/account/AccountStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="60" selection-end="60" vertical-scroll-proportion="0.15105386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/PredicateExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="832" selection-end="1003" vertical-scroll-proportion="0.5971897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2572" selection-end="2572" vertical-scroll-proportion="0.57843137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/test/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.64166665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/ErrorContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.69871044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule_PredicateVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="0.55451345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuavaPredicates/src/learnandtry/guava/predicates/documents/DocumentNameMaxLengthRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.6975381">
           <folding />
         </state>
       </provider>
