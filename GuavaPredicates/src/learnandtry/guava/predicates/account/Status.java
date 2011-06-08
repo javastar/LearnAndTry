@@ -1,7 +1,7 @@
 package learnandtry.guava.predicates.account;
 
 
-public enum AccountStatus {
+public enum Status {
 
     ACTIVE, CLOSED
 

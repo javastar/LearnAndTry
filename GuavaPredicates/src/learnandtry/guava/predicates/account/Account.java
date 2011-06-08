@@ -1,11 +1,11 @@
 package learnandtry.guava.predicates.account;
 
+
 public class Account {
 
     private Long pk;
-    private String name;
     private Region region;
-    private AccountStatus accountStatus;
+    private Status status;
 
 
     public Region getRegion() {
@@ -16,20 +16,12 @@ public class Account {
         this.region = region;
     }
 
-    public AccountStatus getAccountStatus() {
-        return accountStatus;
+    public Status getStatus() {
+        return status;
     }
 
-    public void setAccountStatus(AccountStatus accountStatus) {
-        this.accountStatus = accountStatus;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     public Long getPk() {
